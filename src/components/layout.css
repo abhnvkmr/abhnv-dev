@@ -41,11 +41,14 @@ template {
 }
 a {
   background-color: transparent;
+  color: orange;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
   outline-width: 0;
+  background-color: orange;
+  color: hsla(0, 0%, 100%, 0.8);
 }
 abbr[title] {
   border-bottom: none;
@@ -185,7 +188,7 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
+  font: 100%/1.25em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -199,7 +202,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
+  background-color: #282828;
+  color: hsla(0, 0%, 100%, 0.8);
   font-family: 'Consolas', monospace;
   font-weight: normal;
   word-wrap: break-word;
