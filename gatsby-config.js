@@ -2,7 +2,10 @@ module.exports = {
   siteMetadata: {
     title: `Abhinav Kumar`,
     description: `Abhinav Kumar's tech blog.`,
-    author: `@gatsbyjs`,
+    author: `@abhnvkmr`,
+    social: {
+      twitter: "@abhnvkmr",
+    },
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -11,6 +14,35 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/content/posts`,
+        name: `posts`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          // {
+          //   resolve: `gatsby-remark-images`,
+          //   options: {
+          //     maxWidth: 590,
+          //   },
+          // },
+          // {
+          //   resolve: `gatsby-remark-responsive-iframe`,
+          //   options: {
+          //     wrapperStyle: `margin-bottom: 1.0725rem`,
+          //   },
+          // },
+          // `gatsby-remark-prismjs`,
+          // `gatsby-remark-copy-linked-files`,
+          // `gatsby-remark-smartypants`,
+        ],
       },
     },
     `gatsby-transformer-sharp`,
