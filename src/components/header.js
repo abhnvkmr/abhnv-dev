@@ -25,34 +25,38 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
-        </Link><span> - </span>
+        </Link>
+        <span> - </span>
         <Link
-          to="/"
+          to="/blog/"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
           Blog
-        </Link><span> - </span>
-        <Link
-          to="/"
+        </Link>
+        <span> - </span>
+        <a
+          href="https://abhnv.com"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
           Personal Blog
-        </Link><span> - </span>
-        <Link
-          to="/"
+        </a>
+        <span> - </span>
+        <a
+          href="https://abhnv.com/Abhinav%20Kumar%20-%202018.pdf"
           style={{
             color: `white`,
             textDecoration: `none`,
           }}
         >
           Resume
-        </Link><span> - </span>
+        </a>
+        <span> - </span>
         <Link
           to="/"
           style={{

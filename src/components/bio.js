@@ -29,7 +29,7 @@ const Bio = () => {
     <div
       style={{
         display: `flex`,
-        marginBottom: rhythm(2.5),
+        marginBottom: rhythm(0.5),
       }}
     >
       {/* <Image
@@ -46,8 +46,8 @@ const Bio = () => {
         }}
       /> */}
       <p>
-        Written by <strong>{author}</strong> who lives and works in San
-        Francisco building useful things.
+        Written by <strong>{author}</strong> who lives and works in Bangalore
+        building things at a startup when he's not travelling.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You should follow him on Twitter

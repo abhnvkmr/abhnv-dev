@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Abhinav Kumar <abhinav@outlook.com>",
   "dependencies": {
+    "eslint": "^6.6.0",
     "gatsby": "^2.17.13",
     "gatsby-image": "^2.2.32",
     "gatsby-plugin-manifest": "^2.2.27",
