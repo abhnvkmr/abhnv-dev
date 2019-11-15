@@ -7,15 +7,14 @@
 #
 
 FROM node:13-buster as devenv-stage
-RUN yarn global add gatsby-cli
 
 WORKDIR /build-dir
 
 # Install all packages
 COPY package.json yarn.lock ./
-RUN yarn install
+RUN yarn install --prod --pure-lockfile
 ADD . /build-dir/
-RUN gatsby build
+RUN yarn run build
 
 #
 #####################
