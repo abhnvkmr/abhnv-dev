@@ -1,7 +1,7 @@
 ---
 date: 2019-11-18T20:12:51.638Z
-title: "inotify limit"
-description: "Make sure the number of files that your Linux system can monitor for changes is big enough for your project"
+title: "inotify() limit"
+description: "Bump up the number of files your system can monitor for changes"
 ---
 Have you ever been working on a project and realized that project is not being hot-reloaded or re-compiled when you save or have auto-save enabled.
 
