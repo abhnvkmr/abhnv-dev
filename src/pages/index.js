@@ -9,10 +9,7 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <h1>Hi people!</h1>
     <p>Welcome to my site</p>
-    <p>
-      I am a software developer currently working and living in Bangalore,
-      India.
-    </p>
+    <p>I am a software developer currently working and living in Bangalore, India.</p>
 
     <Link to="/blog/">Go to All Posts</Link>
   </Layout>
