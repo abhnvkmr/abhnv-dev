@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
         >
           {siteTitle}
         </Link>
-        <span> - </span>
+        <span> || </span>
         <Link
           to="/blog/"
           style={{
@@ -36,7 +36,7 @@ const Header = ({ siteTitle }) => (
         >
           Blog
         </Link>
-        <span> - </span>
+        <span> || </span>
         <a
           href="https://abhnv.com"
           style={{
@@ -46,7 +46,7 @@ const Header = ({ siteTitle }) => (
         >
           Personal Blog
         </a>
-        <span> - </span>
+        <span> || </span>
         <a
           href="https://abhnv.com/Abhinav%20Kumar%20-%202018.pdf"
           style={{
@@ -56,7 +56,7 @@ const Header = ({ siteTitle }) => (
         >
           Resume
         </a>
-        <span> - </span>
+        <span> || </span>
         <Link
           to="/"
           style={{

@@ -1,4 +1,8 @@
 {
+  "files.associations": {
+    "*.js": "javascriptreact",
+    "*.json": "jsonc"
+  },
   "files.autoSave": "onWindowChange",
   "git.confirmSync": false,
   "git.enableCommitSigning": true

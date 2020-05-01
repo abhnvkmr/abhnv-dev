@@ -35,7 +35,11 @@ const Layout = ({ children }) => (
           }}
         >
           <main>{children}</main>
-          <footer>
+          <footer
+            style={{
+              margin: `10px 2px`,
+            }}
+          >
             © {new Date().getFullYear()} Abhinav Kumar. Built with
             {` `}
             <a href="https://www.gatsbyjs.org">GatsbyJS</a>.
