@@ -6,7 +6,7 @@
 #####################
 #
 
-FROM node:13-buster as devenv-stage
+FROM node:14-buster as devenv-stage
 
 WORKDIR /build-dir
 
