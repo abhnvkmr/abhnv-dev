@@ -1,6 +1,6 @@
 ---
 date: 2019-11-18T20:12:51.638Z
-title: "inotify() limit"
+title: "Modify the inotify() limit to increase the number of watched files"
 description: "Bump up the number of files your system can monitor for changes"
 ---
 Have you ever been working on a project and realized that project is not being hot-reloaded or re-compiled when you save or have auto-save enabled.
