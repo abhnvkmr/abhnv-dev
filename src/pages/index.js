@@ -14,13 +14,12 @@ const IndexPage = () => (
     <p>I am a software developer currently working and living in Bangalore, India.</p>
 
     <h3>### Skills</h3>
-    <p>
-      <ul id="skills-list">
-        <li>Languages : Python, JavaScript, TypeScript, Rust, Go</li>
-        <li>Frameworks: Django, Flask, React, AngularJS, VueJS</li>
-        <li>Platforms : Docker</li>
-      </ul>
-    </p>
+
+    <ul id="skills-list">
+      <li>Languages : Python, JavaScript, TypeScript, Rust, Go</li>
+      <li>Frameworks: Django, Flask, React, AngularJS, VueJS</li>
+      <li>Platforms : Docker</li>
+    </ul>
 
     <h3>
       ### <Link to="/blog/">Blog ➡</Link>
