@@ -20,6 +20,7 @@ This limit configuration can be set by changing the value of `fs.inotify.max_use
 You can do this using:
 ```bash
 $ echo fs.inotify.max_user_watches=65536 | sudo tee -a /etc/sysctl.conf
+
 # Then reload the new configuration values
 $ sudo sysctl -p
 ```
