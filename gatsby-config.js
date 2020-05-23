@@ -5,6 +5,7 @@ module.exports = {
     author: `@abhnvkmr`,
     social: {
       twitter: "@abhnvkmr",
+      instagram: "abhnvkmr",
     },
   },
   plugins: [

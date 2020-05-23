@@ -18,6 +18,7 @@ const Bio = () => {
           author
           social {
             twitter
+            instagram
           }
         }
       }
@@ -30,26 +31,14 @@ const Bio = () => {
       style={{
         display: `flex`,
         marginBottom: rhythm(0.2),
+        paddingTop: rhythm(1),
       }}
     >
-      {/* <Image
-        fixed={data.avatar.childImageSharp.fixed}
-        alt={author}
-        style={{
-          marginRight: rhythm(1 / 2),
-          marginBottom: 0,
-          minWidth: 50,
-          borderRadius: `100%`,
-        }}
-        imgStyle={{
-          borderRadius: `50%`,
-        }}
-      /> */}
       <p>
         Written by <strong>{author}</strong> who lives and works in Bangalore building things at a
-        startup when he's not travelling.
-        {` `}
-        <a href={`https://twitter.com/${social.twitter}`}>You should follow him on Twitter</a>
+        startup when he's not travelling. You should follow him on{" "}
+        <a href={`https://twitter.com/${social.twitter}`}>Twitter</a>,{" "}
+        <a href={`https://www.instagram.com/${social.instagram}`}>Instagram</a>.
       </p>
     </div>
   )
